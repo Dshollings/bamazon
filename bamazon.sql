@@ -13,42 +13,42 @@ CREATE TABLE products(
 );
 
 INSERT INTO products
-        (product_name, department_name, price, stock_quantity)
-        VALUES ('Dog Food', 'Pet Food', 12.50, 100);
+        (product_name, department_name, price, stock_quantity, unit, units)
+        VALUES ('Dog Food', 'Pet Food', 12.50, 100, 'kilo', 'kilos');
         
 INSERT INTO products
-        (product_name, department_name, price, stock_quantity)
-        VALUES ('Dog Food - Organic', 'Pet Food', 18.50, 50);
+        (product_name, department_name, price, stock_quantity, unit, units)
+        VALUES ('Dog Food - Organic', 'Pet Food', 18.50, 50, 'kilo', 'kilos');
         
 INSERT INTO products
-        (product_name, department_name, price, stock_quantity)
-        VALUES ('Cat Food', 'Pet Food', 10, 100);
+        (product_name, department_name, price, stock_quantity, unit, units)
+        VALUES ('Cat Food', 'Pet Food', 10, 100, 'kilo', 'kilos');
 
 INSERT INTO products
-        (product_name, department_name, price, stock_quantity)
-        VALUES ('Cat Food - Organic', 'Pet Food', 15, 50);
+        (product_name, department_name, price, stock_quantity, unit, units)
+        VALUES ('Cat Food - Organic', 'Pet Food', 15, 50, 'kilo', 'kilos');
 
 INSERT INTO products
-        (product_name, department_name, price, stock_quantity)
-        VALUES ('Dog Bed', 'Accessories', 45, 10);
+       (product_name, department_name, price, stock_quantity, unit, units)
+        VALUES ('Dog Bed', 'Accessories', 45, 10, 'bed', 'beds');
 
 INSERT INTO products
-        (product_name, department_name, price, stock_quantity)
-        VALUES ('Cat Bed', 'Accessories', 30, 10);
+       (product_name, department_name, price, stock_quantity, unit, units)
+        VALUES ('Cat Bed', 'Accessories', 30, 10,  'bed', 'beds');
         
 INSERT INTO products
-        (product_name, department_name, price, stock_quantity)
-        VALUES ('Dog Leash', 'Accessories', 13.50, 25);
+        (product_name, department_name, price, stock_quantity, unit, units)
+        VALUES ('Dog Leash', 'Accessories', 13.50, 25, 'leash', 'leashes');
 
 INSERT INTO products
-        (product_name, department_name, price, stock_quantity)
-        VALUES ('Scratching Post', 'Accessories', 18.50, 25);
+        (product_name, department_name, price, stock_quantity, unit, units)
+        VALUES ('Scratching Post', 'Accessories', 18.50, 25, 'post', 'posts');
 
 INSERT INTO products
-        (product_name, department_name, price, stock_quantity)
-        VALUES ('Pig Ear', 'Treats', 4, 200);
+        (product_name, department_name, price, stock_quantity, unit, units)
+        VALUES ('Pig Ear', 'Treats', 4, 200, 'ear', 'ears');
         
 INSERT INTO products
-        (product_name, department_name, price, stock_quantity)
-        VALUES ('Dried Anchoviesr', 'Treats', 6, 200);
+        (product_name, department_name, price, stock_quantity, unit, units)
+        VALUES ('Dried Anchovies', 'Treats', 6, 200, 'package', 'packages');
         
