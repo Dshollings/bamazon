@@ -34,8 +34,6 @@ function populateStore(){
     if (err) throw err;
   console.log("Make a selection below");
     console.log("-----------------------------------------------");
-    // array to hold IDs of available selections
-    var idArray = [];
     // loop through all items
     for(var i = 0; i < res.length; i++){
       // display item information if in stock
