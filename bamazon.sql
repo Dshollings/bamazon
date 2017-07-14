@@ -9,8 +9,8 @@ CREATE TABLE products(
   department_name VARCHAR(100) NOT NULL,
   price FLOAT(10,2) NOT NULL,
   stock_quantity INT (100) DEFAULT 0,
-  unit VARCHAR(100) DEFAULT item,
-  units VARCHAR(100) DEFAULT items,
+  unit VARCHAR(100) DEFAULT 'item',
+  units VARCHAR(100) DEFAULT 'items',
   PRIMARY KEY (id)
 );
 
